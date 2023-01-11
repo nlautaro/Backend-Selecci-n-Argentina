@@ -4,7 +4,7 @@ const router = Router();
 
 const products = [
   {
-		"id": "47124f30-7b1d-41be-9523-d58232d6c76b",
+		"id": 1,
 		"title": "Camiseta titular Argentina",
 		"description": "Camiseta titular de la selección Argentina Lionel Messi Qatar 2022",
 		"price": 20000,
@@ -12,7 +12,7 @@ const products = [
 		"stock": 150
 	},
 	{
-		"id": "458e7e22-f408-458c-aafa-65e92ca9f559",
+		"id": 2,
 		"title": "Camiseta alternativa Argentina",
 		"description": "Camiseta alternativa de la selección Argentina Lionel Messi Qatar 2022",
 		"price": 20000,
@@ -20,7 +20,7 @@ const products = [
 		"stock": 100
 	},
 	{
-		"id": "4647734a-7b86-465b-9f60-53a73156206f",
+		"id": 3,
 		"title": "Short titular Argentina",
 		"description": "Short titular de la selección Argentina Qatar 2022",
 		"price": 9000,
@@ -28,7 +28,7 @@ const products = [
 		"stock": 100
 	},
 	{
-		"id": "3b98c40a-3b3d-488e-be69-ede48594c604",
+		"id": 4,
 		"title": "Short alternativa Argentina",
 		"description": "Short alternativa de la selección Argentina Qatar 2022",
 		"price": 9000,
@@ -36,7 +36,7 @@ const products = [
 		"stock": 100
 	},
 	{
-		"id": "f1c96390-1121-413b-b597-7d0b942d3154",
+		"id": 5,
 		"title": "Medias titulares Argentina blancas",
 		"description": "Medias titulares de la selección Argentina Qatar 2022 color blancas",
 		"price": 4000,
@@ -44,7 +44,7 @@ const products = [
 		"stock": 100
 	},
 	{
-		"id": "db8c863d-742c-4888-94a5-c2dc90c6dced",
+		"id": 6,
 		"title": "Medias titulares Argentina negras",
 		"description": "Medias titulares de la selección Argentina Qatar 2022 color negras",
 		"price": 4000,
@@ -52,7 +52,7 @@ const products = [
 		"stock": 100
 	},
 	{
-		"id": "efdddd15-d7c4-401e-b6b6-b041c3b58d77",
+		"id": 7,
 		"title": "Medias alternativa Argentina",
 		"description": "Medias alternativa de la selección Argentina Qatar 2022",
 		"price": 4000,
@@ -60,7 +60,7 @@ const products = [
 		"stock": 100
 	},
 	{
-		"id": "ec248073-90ec-4fb5-9878-5e8b486d5f25",
+		"id": 8,
 		"title": "Camiseta entremaniento Argentina",
 		"description": "Camiseta de entremaniento celeste Argentina Qatar 2022",
 		"price": 14000,
@@ -68,7 +68,7 @@ const products = [
 		"stock": 100
 	},
 	{
-		"id": "e042937e-bc9e-49dd-964e-1d0b7b1e6b61",
+		"id": 9,
 		"title": "Campera entremaniento Argentina",
 		"description": "Campera de entremaniento celeste Argentina Qatar 2022",
 		"price": 24000,
@@ -76,7 +76,7 @@ const products = [
 		"stock": 100
 	},
 	{
-		"id": "c2637a84-36ee-44cd-8efc-c7cdfaa1a076",
+		"id": 10,
 		"title": "Musculosa entrenamiento alternativa Argentina",
 		"description": "Musculosa de entrenamiento alternativa Argentina Qatar 2022",
 		"price": 12000,

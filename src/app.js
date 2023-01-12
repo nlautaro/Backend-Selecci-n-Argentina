@@ -2,18 +2,20 @@ import express from "express";
 import productRouter from "./routes/product.router.js";
 import cartRouter from "./routes/cart.router.js";
 import { engine } from "express-handlebars";
+import viewsRouter from "./routes/views.router.js";
+import {Server} from "socket.io"
 
 const app = express();
 const port = 8080;
 
 app.engine("handlebars", engine());
 app.set("view engine", "handlebars");
-app.set("views", "./views");
+app.set("views", "./src/views");
 
 app.get("/", (req, res) => {
   res.render("home", {
-    title: "Tienda Argentina",
-    name: "campeón del mundo"
+    title: "Tienda de ropa Argentina",
+    name: "Campeones del mundo"
   });
 })
 

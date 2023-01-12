@@ -1,6 +1,7 @@
 import express from "express";
 
 const router = express.Router();
+
 let ListaProducts = [
   {product: "Camiseta titular Argentina", price: "20000"},
 	{product: "Camiseta alternativa Argentina",price: "20000"},
@@ -13,5 +14,10 @@ let ListaProducts = [
 	{product: "Campera entremaniento Argentina", price: "24000"},
 	{product: "Musculosa entrenamiento alternativa Argentina", price: "12000"}
 ];
+
+router.get("/", (req, res) => {
+	console.log("desde el servidor");
+	res.render("chat", {});
+  });
 
 export default router;

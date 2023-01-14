@@ -23,7 +23,7 @@ app.engine("handlebars", engine());
 app.set("view engine", "handlebars");
 app.set("views", "./src/views");
 
-//WELCOME
+//MOSTRAR PRODUCTOS
 app.get("/", (req, res) => {
   res.render("home", {
     title: "Tienda de ropa Argentina",
